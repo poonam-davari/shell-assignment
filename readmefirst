@@ -1,0 +1,21 @@
+#########################################################################
+#									#
+# Readme file to help you to execute this script			#
+#						 			#
+#########################################################################
+
+
+Prerequisites : 
+- centos 6.x - 64 bit
+- /etc/hosts entries should be present if you dont have dns setup
+- ssh should be configured on default port on each host
+- "compose" user should be present on each host
+
+Step 1: Clone shell-assignment directory on your system from which you are going to run this script
+
+Step 2: inside script specify all your hosts on following line
+
+line number 6 : hosts=
+
+Step 3: execute the script with ./ssh-hosts.sh command and give "yes" answer to each question.
+You have to provide password for ssh keys verification
